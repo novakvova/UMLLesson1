@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a9772d7d-8e54-49b9-9b43-a73688717ea7"
+  name="MyNamespace" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <importedPackagesInternal>
+    <packageImport
+      Id="d7c37dc8-0cb7-4bba-b9a1-b9c89d884014"
+      visibility="Public">
+      <packageMoniker
+        Id="8330ec74-8d37-4298-9978-e13845917662"
+        LastKnownName="LibraryNamespace"
+        LastKnownLocation="Package1_1745.uml" />
+    </packageImport>
+  </importedPackagesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="fe9ef808-8b76-4451-9499-06c4e8d73bdc"
+        name="MyClass"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="b477b96e-c1d3-4388-9fd6-fc54e81f69f6"
+            isDerived="false"
+            sourceEndRoleName="MyClass"
+            targetEndRoleName="SomeClass"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3eb017ce-27d9-4b9c-8409-0ff2eb9c5f98"
+              LastKnownName="SomeClass"
+              LastKnownLocation="Package1_1745.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="843192a8-4620-4e24-9a25-f69c9dcb8f28"
+                  name="MyClass"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="118f51a2-1960-4746-a574-b467080f0288"
+                  name="SomeClass"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

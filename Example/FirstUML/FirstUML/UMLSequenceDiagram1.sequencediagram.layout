@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sequenceDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLSequenceDiagram1">
+  <SequenceDesignerModelMoniker Id="c81b54f9-f59e-4048-8556-d465473081d8" />
+  <nestedChildShapes>
+    <lifelineShape Id="ce54d387-53c0-4360-8284-7b291d8ee0b0" absoluteBounds="1.2708333730697632, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="ad62b2b6-05b9-4496-b54b-b4da49d24904" LastKnownName="Lifeline1" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="b8536107-149c-4500-bc9b-0bccf5a178dc" absoluteBounds="0.84583337306976314, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="ad62b2b6-05b9-4496-b54b-b4da49d24904" LastKnownName="Lifeline1" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="7415cad1-b921-46ef-ab1e-552030af9935" absoluteBounds="1.2708333730697632, 1, 0, 7">
+          <lifelineMoniker Id="ad62b2b6-05b9-4496-b54b-b4da49d24904" LastKnownName="Lifeline1" />
+        </lifelineHoverShape>
+        <umlExecutionSpecificationShape Id="3ef5b5e4-fc81-4fdd-8867-00e48e15ba9f" absoluteBounds="1.2708333730697632, 1.5729166666666665, 0.15, 0.55000000000000027" customColor="184, 204, 215" visualStyleMode="Modified">
+          <behaviorExecutionSpecificationMoniker Id="c26ba850-570a-4f96-b1fa-daf6861596c4" LastKnownName="BehaviorExecutionSpecification1" />
+        </umlExecutionSpecificationShape>
+        <lostFoundTargetShape Id="e7e033ee-a33d-4415-8dd7-e774ed2c489f" absoluteBounds="0.525, 1.4729166666666664, 0.2, 0.2" customColor="89, 89, 89">
+          <lostFoundTargetMoniker Id="b05d1d95-d9d2-460f-8eeb-81a2877b640d" LastKnownName="LostFoundTarget1" />
+        </lostFoundTargetShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lostFoundMessageConnector edgePoints="[(0.725 : 1.57291666666667); (1.27083337306976 : 1.57291666666667)]" fixedFrom="Caller" fixedTo="Caller" TargetRelationshipDomainClassId="e24617ce-6c7e-4c7d-802a-63014f02e313" customColor="Black" visible="true" visualStyleMode="Modified" messageId="00000000-0000-0000-0000-000000000000">
+      <relativeChildShapes />
+      <nodes>
+        <lostFoundTargetShapeMoniker Id="e7e033ee-a33d-4415-8dd7-e774ed2c489f" />
+        <umlExecutionSpecificationShapeMoniker Id="3ef5b5e4-fc81-4fdd-8867-00e48e15ba9f" />
+      </nodes>
+    </lostFoundMessageConnector>
+  </nestedChildShapes>
+</sequenceDesignerDiagram>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="91e65097-f7e2-4b2f-8dc1-f153e08bd426" name="cd 004_UMLClassDiagram2" linkedPackageId="9aa3337d-0b99-49ec-a757-2a37f57a6dc1" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="57ba9c2e-77c4-4449-87e0-3c0c22466f00">
+      <elementDefinition Id="e360c62b-c2ce-4f8e-953b-be8e0ff2b930" />
+      <body>A знает (осведомлен) о B
+A использует B</body>
+    </comment>
+    <comment Id="819e7e81-8c48-4704-895b-81ab1e0e1265">
+      <elementDefinition Id="a3141989-7be0-4ba3-bfcc-c0a1f539e16d" />
+      <body>C состоит из D
+D является частью C
+C включает в себя D</body>
+    </comment>
+    <comment Id="f62c1de4-c92e-481f-a0a6-f64a93fd2dfe">
+      <elementDefinition Id="411ba1b5-1917-4c7f-9a73-89e080b230a3" />
+      <body>E состоит из F не может без него жить
+F является жизненно важной частью E
+E включает в себя F и не может без него жить</body>
+    </comment>
+    <comment Id="ea100fb2-ef18-49f0-acc2-6fe768c17a50">
+      <elementDefinition Id="73ead96f-4254-4776-9148-1da506a9a27f" />
+      <body>13 стериотипов зависмостей</body>
+    </comment>
+    <comment Id="6939c44c-1425-4aa1-a6b5-6fed60f1c9d0">
+      <elementDefinition Id="0f6c1c15-e52c-440a-adba-e612a641dab2" />
+      <body>Источник -&gt; Цель
+(Источник зависит от цели)</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4de1a252-9d12-4a67-9102-58dc48cf7ed5" name="A" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e94f58ea-4d91-45d1-b287-d7d5a0a618ac" />
+        <targetEnds>
+          <association Id="ab64108d-a56d-455a-86d2-5452effa0c48" isDerived="false" sourceEndRoleName="A" targetEndRoleName="B" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6368a5a0-02fb-4d77-a3f1-363e77679a16" LastKnownName="B" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4b8be50d-fcb9-493c-8485-2046662fa78f" name="A" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="007dbf64-5e61-4031-a0a2-7d3dbd1049f5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="296d7984-18c6-4211-9596-488045943645" name="B" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e5303f72-07e0-478b-a687-ced189531a22" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="780312a7-0cb4-4a39-9ccd-f71bbc68204e" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6368a5a0-02fb-4d77-a3f1-363e77679a16" name="B" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="336c41ed-2203-451f-adbc-e00da46a3527" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d7439468-5bfe-46a9-b439-2a0abe39a788" name="D" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f17d304f-8aba-428d-9e59-c3530f462d85" />
+        <targetEnds>
+          <association Id="26faeea1-b582-421e-8606-3ed52d41c366" isDerived="false" sourceEndRoleName="D" targetEndRoleName="C" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b63447a3-1542-4ef1-a3f8-3203ae6ddc3f" LastKnownName="C" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="151ac151-873b-4379-a268-7e86f4a2dd25" name="D" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3a3c91a6-914f-4d7c-8f25-60c2c3741d9c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7028f224-c0c3-435b-8223-754ab90c3053" name="C" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8e5055a5-22f6-4b55-acc7-7c344a22ff09" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a6963bcb-933d-4681-b6ee-5749c8e412c1" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b63447a3-1542-4ef1-a3f8-3203ae6ddc3f" name="C" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f6d018c6-8e9f-48e7-9d36-cab8ae3b51fa" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="845c990d-f12a-40bb-a91a-5f77c1018876" name="E" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e72280fd-0809-4a8c-971b-6f5c55211c28" />
+        <targetEnds>
+          <association Id="c73f7d6d-b6cd-47c1-9bd4-499ec2eb5b7f" isDerived="false" sourceEndRoleName="E" targetEndRoleName="F" isLeaf="false" isAbstract="false">
+            <classMoniker Id="3565a50e-6e0a-4828-816f-6d6e4c1c0057" LastKnownName="F" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fbf167bd-cdb6-42a9-89a3-1b97e8827bf3" name="E" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d8c00e39-1282-4123-b357-75754bd3c300" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a78c285b-0411-4bc2-91a4-37f70d4b0426" name="F" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="59eb7f8f-6326-4f5d-9829-324586d8835f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="72b555c0-692a-4bcb-b57b-21914e1bef5f" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3565a50e-6e0a-4828-816f-6d6e4c1c0057" name="F" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="61452464-a272-4c4f-9194-9721e251b0bd" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="20b21e3e-d164-4343-b377-eb181d60bcf6" name="G" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="be8234b2-a2d0-49a3-8b12-12a4c94ce837" />
+        <suppliersInternal>
+          <dependency Id="480ae72e-db66-46d9-a7f0-a2f20a8884a0">
+            <classMoniker Id="42aad7f0-e9d6-4772-954f-89286de00fe9" LastKnownName="H" />
+            <elementDefinition Id="b13e85d5-1bca-4070-b552-152414c94c34" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="42aad7f0-e9d6-4772-954f-89286de00fe9" name="H" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="33fc2455-6912-4708-8293-8611485dd9b3" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="9aa3337d-0b99-49ec-a757-2a37f57a6dc1" name="ModelingProject1">
+    <elementDefinition Id="1008c15e-8a23-488a-a7e2-53b83a158042" />
+    <profileInstances>
+      <packageHasProfileInstances Id="5a0e5fde-e41c-47bc-8460-ea7748efaf71">
+        <profileInstance Id="3aa88914-8776-4bd3-ab2e-98c48db5b399" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="e9392925-63e4-4ca5-bcbd-4e3ff000dfd7">
+        <profileInstance Id="c744beb1-c950-434b-9d0f-fd6f3c512d91" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

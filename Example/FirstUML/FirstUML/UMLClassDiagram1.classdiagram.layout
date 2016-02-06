@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLClassDiagram1">
+  <logicalClassDesignerModelMoniker Id="79e72a73-463e-480a-bcd3-688067c35288" />
+  <nestedChildShapes>
+    <classShape Id="39f69270-bd22-4915-b841-740a0c5f1f95" absoluteBounds="1.25, 0.75, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="0d05d834-20d4-4710-98b1-679b14263676" LastKnownName="MyClass" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="9e950825-3c93-475f-a90c-5715599ae865" absoluteBounds="1.2650000000000001, 1.1400000000000001, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="cb9594ab-a151-4d77-80d9-7d9de617eacb" absoluteBounds="1.2650000000000001, 1.3511718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <commentShape Id="98c680cb-8652-4d06-a53c-9cf0534e6271" absoluteBounds="4.125, 1.875, 1.25, 0.375" customColor="251, 247, 200">
+      <commentMoniker Id="b2b06bd6-a4a5-41e3-b5e2-f482a2d1977a" />
+      <relativeChildShapes />
+    </commentShape>
+    <commentConnector edgePoints="[(4.125 : 1.875); (2.75 : 1.65234373509884)]" fixedFrom="NotFixed" fixedTo="NotFixed" TargetRelationshipDomainClassId="217d6bd0-42ed-4e7f-ad2b-af3ef5142428" customColor="Black">
+      <relativeChildShapes />
+      <nodes>
+        <commentShapeMoniker Id="98c680cb-8652-4d06-a53c-9cf0534e6271" />
+        <classShapeMoniker Id="39f69270-bd22-4915-b841-740a0c5f1f95" />
+      </nodes>
+    </commentConnector>
+    <interfaceShape Id="3939d7ac-df57-481b-945e-6ee1109e23b3" absoluteBounds="4.125, 0.5, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="207, 223, 191">
+      <interfaceMoniker Id="8c341e67-a73f-4b96-ae06-0871231e6bde" LastKnownName="Interface1" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="177fbf35-8074-42ea-a824-103c13242ee1" absoluteBounds="4.14, 0.89000000000000012, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="b1de91e9-d1fa-448a-a917-419883f54e4d" absoluteBounds="4.14, 1.1011718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </interfaceShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

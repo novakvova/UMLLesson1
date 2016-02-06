@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="8cc1c336-dea0-4f29-a4d0-ab6e8e837e36" name="cd_006UMLClassDiagram2" linkedPackageId="64e47921-f508-4cc4-b0cb-9ecc3c558efb" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="a045a7ca-cbcd-45d7-b5e4-fb60fdb991eb">
+      <elementDefinition Id="f6fad0ce-f5b8-4b2a-bb02-c8190dab6079" />
+      <body>&lt;Import&gt; в UML аналогичен using в C#</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="6182b625-5c4e-44ae-94ae-030b0f28b15b">
+      <profileInstance Id="bbb82ebc-524c-4897-baf2-b2ad095ee9e5" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="2350828c-e53e-4bc8-b285-9101191177da">
+      <profileInstance Id="9dcf6c2b-df0a-4cbc-8bb4-982cd807c054" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="d988555c-d2fe-483c-aec9-10da88a1e867" name="MyNamespace">
+        <elementDefinition Id="a9772d7d-8e54-49b9-9b43-a73688717ea7" />
+        <importedPackagesInternal>
+          <packageImport Id="0a5222fb-a20b-4b45-9326-bdc17f37fedb" visibility="Public">
+            <packageMoniker Id="15d3fb93-207b-470c-8e4b-aa877062f062" LastKnownName="LibraryNamespace" />
+            <elementDefinition Id="d7c37dc8-0cb7-4bba-b9a1-b9c89d884014" />
+          </packageImport>
+        </importedPackagesInternal>
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="0b0b4fe9-2fd9-4366-ae05-ecba66856a36" name="MyClass" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="fe9ef808-8b76-4451-9499-06c4e8d73bdc" />
+              <targetEnds>
+                <association Id="808b7a71-1145-4683-a950-b0552e074175" isDerived="false" sourceEndRoleName="MyClass" targetEndRoleName="SomeClass" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="b4c75fa1-c132-462c-a507-bfd05034c804" LastKnownName="SomeClass" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="4978d412-f80e-4023-b26b-5a06e0ffe923" name="MyClass" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="843192a8-4620-4e24-9a25-f69c9dcb8f28" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="dcece802-9a6a-49ee-b722-1d81cf19a6fe" name="SomeClass" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="118f51a2-1960-4746-a574-b467080f0288" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="b477b96e-c1d3-4388-9fd6-fc54e81f69f6" />
+                </association>
+              </targetEnds>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="15d3fb93-207b-470c-8e4b-aa877062f062" name="LibraryNamespace">
+        <elementDefinition Id="8330ec74-8d37-4298-9978-e13845917662" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="b4c75fa1-c132-462c-a507-bfd05034c804" name="SomeClass" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="3eb017ce-27d9-4b9c-8409-0ff2eb9c5f98" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+  </packagedElements>
+  <package Id="64e47921-f508-4cc4-b0cb-9ecc3c558efb" name="ModelingProject1">
+    <elementDefinition Id="1008c15e-8a23-488a-a7e2-53b83a158042" />
+  </package>
+</logicalClassDesignerModel>

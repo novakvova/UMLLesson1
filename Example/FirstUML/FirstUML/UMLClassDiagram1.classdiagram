@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="79e72a73-463e-480a-bcd3-688067c35288" name="UMLClassDiagram1" linkedPackageId="5b97d008-8823-4305-8ec9-133fc4747907" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="b2b06bd6-a4a5-41e3-b5e2-f482a2d1977a">
+      <elementDefinition Id="030aa33b-4bd0-40c1-9817-a73f99db0b9d" />
+      <body>Це мій клас
+</body>
+      <annotatedElements>
+        <classMoniker Id="0d05d834-20d4-4710-98b1-679b14263676" LastKnownName="MyClass" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="3e733637-ff69-4de3-977e-99664756d764">
+      <profileInstance Id="9f342798-00ca-4c72-a301-9b3370bb16f5" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="992adb00-1d3d-4e47-8196-4fcdce1f9ca4">
+      <profileInstance Id="bd691c5b-fdc9-4a81-aaf7-74ed688a5e5f" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0d05d834-20d4-4710-98b1-679b14263676" name="MyClass" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="95e2f150-915a-4045-8de5-903eb2395d2f" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="8c341e67-a73f-4b96-ae06-0871231e6bde" name="Interface1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bbbd3f22-ffe3-4824-bf0b-33d1979e0624" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="5b97d008-8823-4305-8ec9-133fc4747907" name="FirstUML">
+    <elementDefinition Id="0dcde889-eea1-4a83-b872-b445000e28cd" />
+  </package>
+</logicalClassDesignerModel>
